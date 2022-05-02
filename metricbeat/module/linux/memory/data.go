@@ -25,11 +25,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/transform/typeconv"
-	"github.com/elastic/beats/v7/libbeat/metric/system/resolve"
-	"github.com/elastic/beats/v7/metricbeat/internal/metrics/memory"
-	metrics "github.com/elastic/beats/v7/metricbeat/internal/metrics/memory"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/common/transform/typeconv"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/resolve"
+	"github.com/k0ffee/beats/v7/metricbeat/internal/metrics/memory"
+	metrics "github.com/k0ffee/beats/v7/metricbeat/internal/metrics/memory"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

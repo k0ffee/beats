@@ -22,10 +22,10 @@ package look
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/common"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/heartbeat/reason"
+	"github.com/k0ffee/beats/v7/heartbeat/reason"
 )
 
 // RTT formats a round-trip-time given as time.Duration into an

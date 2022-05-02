@@ -37,5 +37,5 @@ docker logs, typically the system journal.
 
 On MacOS, locating the logs is more complicated. For more information, see
 the
-https://github.com/elastic/beats/tree/{branch}/x-pack/dockerlogbeat#debugging-on-macos[Debugging
+https://github.com/k0ffee/beats/tree/{branch}/x-pack/dockerlogbeat#debugging-on-macos[Debugging
 on MacOS] section in the readme file.

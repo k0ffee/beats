@@ -32,11 +32,11 @@ import (
 	"github.com/gomodule/redigo/redis"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/format"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/json"
-	"github.com/elastic/beats/v7/libbeat/outputs/outest"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/outputs"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/codec/format"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/codec/json"
+	"github.com/k0ffee/beats/v7/libbeat/outputs/outest"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

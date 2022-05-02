@@ -20,7 +20,7 @@ package elasticsearch
 import (
 	"sync"
 
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
+	"github.com/k0ffee/beats/v7/libbeat/esleg/eslegclient"
 
 	"github.com/gofrs/uuid"
 )

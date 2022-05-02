@@ -25,11 +25,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/paths"
+	"github.com/k0ffee/beats/v7/libbeat/autodiscover"
+	"github.com/k0ffee/beats/v7/libbeat/cfgfile"
+	"github.com/k0ffee/beats/v7/libbeat/common/cfgwarn"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/paths"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

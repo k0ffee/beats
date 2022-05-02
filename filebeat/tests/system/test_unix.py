@@ -10,7 +10,7 @@ from filebeat import BaseTest
 
 
 @unittest.skipIf(not hasattr(socket, 'AF_UNIX'), "No Windows AF_UNIX support before Python 3.9")
-@unittest.skipIf(platform.system() == 'Darwin', 'Flaky test: https://github.com/elastic/beats/issues/20941')
+@unittest.skipIf(platform.system() == 'Darwin', 'Flaky test: https://github.com/k0ffee/beats/issues/20941')
 class Test(BaseTest):
     """
     Test filebeat UNIX input

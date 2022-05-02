@@ -20,9 +20,9 @@ package beater
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/common/reload"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/cfgfile"
+	"github.com/k0ffee/beats/v7/libbeat/common/reload"
 )
 
 type reloader struct {

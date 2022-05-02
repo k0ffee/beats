@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/ecs"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/ecs"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

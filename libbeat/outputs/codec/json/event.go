@@ -20,7 +20,7 @@ package json
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

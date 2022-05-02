@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/outputs/outil"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/outputs"
+	"github.com/k0ffee/beats/v7/libbeat/outputs/outil"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

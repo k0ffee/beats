@@ -24,22 +24,22 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/x-pack/auditbeat/module/system"
-	"github.com/elastic/beats/v7/x-pack/auditbeat/module/system/socket/guess"
-	"github.com/elastic/beats/v7/x-pack/auditbeat/module/system/socket/helper"
-	"github.com/elastic/beats/v7/x-pack/auditbeat/tracing"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/common/cfgwarn"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/x-pack/auditbeat/module/system"
+	"github.com/k0ffee/beats/v7/x-pack/auditbeat/module/system/socket/guess"
+	"github.com/k0ffee/beats/v7/x-pack/auditbeat/module/system/socket/helper"
+	"github.com/k0ffee/beats/v7/x-pack/auditbeat/tracing"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/go-perf"
 	"github.com/elastic/go-sysinfo"
 	"github.com/elastic/go-sysinfo/providers/linux"
 
-	"github.com/elastic/beats/v7/x-pack/auditbeat/module/system/socket/dns"
+	"github.com/k0ffee/beats/v7/x-pack/auditbeat/module/system/socket/dns"
 	// Register dns capture implementations
-	_ "github.com/elastic/beats/v7/x-pack/auditbeat/module/system/socket/dns/afpacket"
+	_ "github.com/k0ffee/beats/v7/x-pack/auditbeat/module/system/socket/dns/afpacket"
 )
 
 const (

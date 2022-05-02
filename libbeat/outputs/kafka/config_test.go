@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/internal/testutil"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/internal/testutil"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

@@ -28,8 +28,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/metric/system/resolve"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/resolve"
 )
 
 var (

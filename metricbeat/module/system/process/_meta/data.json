@@ -34,7 +34,7 @@
         "pgid": 3334369,
         "pid": 3334614,
         "state": "sleeping",
-        "working_directory": "/home/alexk/go/src/github.com/elastic/beats/metricbeat/module/system/process"
+        "working_directory": "/home/alexk/go/src/github.com/k0ffee/beats/metricbeat/module/system/process"
     },
     "service": {
         "type": "system"

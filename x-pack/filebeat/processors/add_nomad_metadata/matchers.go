@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/x-pack/libbeat/processors/add_nomad_metadata"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/x-pack/libbeat/processors/add_nomad_metadata"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

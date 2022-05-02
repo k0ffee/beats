@@ -22,10 +22,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/transform/typeconv"
-	"github.com/elastic/beats/v7/libbeat/metric/system/numcpu"
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/common/transform/typeconv"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/numcpu"
+	"github.com/k0ffee/beats/v7/libbeat/opt"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -11,16 +11,16 @@ import (
 
 	"github.com/docker/go-plugins-helpers/sdk"
 
-	logpcfg "github.com/elastic/beats/v7/libbeat/logp/configure"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/console"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/elasticsearch"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/fileout"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/kafka"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/logstash"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/redis"
-	_ "github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue"
-	"github.com/elastic/beats/v7/libbeat/service"
-	"github.com/elastic/beats/v7/x-pack/dockerlogbeat/pipelinemanager"
+	logpcfg "github.com/k0ffee/beats/v7/libbeat/logp/configure"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/console"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/elasticsearch"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/fileout"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/kafka"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/logstash"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/redis"
+	_ "github.com/k0ffee/beats/v7/libbeat/publisher/queue/memqueue"
+	"github.com/k0ffee/beats/v7/libbeat/service"
+	"github.com/k0ffee/beats/v7/x-pack/dockerlogbeat/pipelinemanager"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

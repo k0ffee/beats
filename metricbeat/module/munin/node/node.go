@@ -22,8 +22,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/munin"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/module/munin"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

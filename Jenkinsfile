@@ -679,7 +679,7 @@ def withBeatsEnv(Map args = [:], Closure body) {
         def upload = false
         try {
           // Add more stability when dependencies are not accessible temporarily
-          // See https://github.com/elastic/beats/issues/21609
+          // See https://github.com/k0ffee/beats/issues/21609
           // retry/try/catch approach reports errors, let's avoid it to keep the
           // notifications cleaner.
           if (cmd(label: 'Download modules to local cache', script: 'go mod download', returnStatus: true) > 0) {
@@ -752,7 +752,7 @@ def installTools(args) {
   if(isUnix()) {
     retryWithSleep(retries: 2, seconds: 5, backoff: true){ sh(label: "${stepHeader} - Install Python/Docker/Terraform", script: '.ci/scripts/install-tools.sh') }
     // TODO (2020-04-07): This is a work-around to fix the Beat generator tests.
-    // See https://github.com/elastic/beats/issues/17787.
+    // See https://github.com/k0ffee/beats/issues/17787.
     sh(label: 'check git config', script: '''
       if [ -z "$(git config --get user.email)" ]; then
         git config --global user.email "beatsmachine@users.noreply.github.com"

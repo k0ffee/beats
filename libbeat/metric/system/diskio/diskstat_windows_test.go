@@ -25,13 +25,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/k0ffee/beats/v7/metricbeat/mb/testing"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 
 func TestCDriveFilterOnWindowsTestEnv(t *testing.T) {
 	// Test if flakey.
-	t.Skip("See https://github.com/elastic/beats/issues/17126")
+	t.Skip("See https://github.com/k0ffee/beats/issues/17126")
 
 	conf := map[string]interface{}{
 		"module":                 "system",

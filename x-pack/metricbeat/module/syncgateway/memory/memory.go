@@ -7,10 +7,10 @@ package memory
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/metricbeat/helper"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/syncgateway"
+	"github.com/k0ffee/beats/v7/metricbeat/helper"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/mb/parse"
+	"github.com/k0ffee/beats/v7/x-pack/metricbeat/module/syncgateway"
 )
 
 const (

@@ -7,7 +7,7 @@
 package suricata
 
 import (
-	"github.com/elastic/beats/v7/libbeat/asset"
+	"github.com/k0ffee/beats/v7/libbeat/asset"
 )
 
 func init() {

@@ -22,12 +22,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/processors"
-	"github.com/elastic/beats/v7/libbeat/processors/script/javascript"
+	"github.com/k0ffee/beats/v7/libbeat/processors"
+	"github.com/k0ffee/beats/v7/libbeat/processors/script/javascript"
 	"github.com/elastic/elastic-agent-libs/config"
 
 	// Register javascript modules with the processor.
-	_ "github.com/elastic/beats/v7/libbeat/processors/script/javascript/module"
+	_ "github.com/k0ffee/beats/v7/libbeat/processors/script/javascript/module"
 )
 
 func init() {

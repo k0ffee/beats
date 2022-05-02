@@ -29,8 +29,8 @@ import (
 
 	winio "github.com/Microsoft/go-winio"
 
-	"github.com/elastic/beats/v7/libbeat/api/npipe"
-	"github.com/elastic/beats/v7/libbeat/common/transport"
+	"github.com/k0ffee/beats/v7/libbeat/api/npipe"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport"
 )
 
 // UnixDialerBuilder creates a builder to dial over a unix domain socket.

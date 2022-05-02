@@ -23,20 +23,20 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/config"
-	"github.com/elastic/beats/v7/heartbeat/hbregistry"
-	"github.com/elastic/beats/v7/heartbeat/monitors"
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
-	"github.com/elastic/beats/v7/heartbeat/scheduler"
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/management"
+	"github.com/k0ffee/beats/v7/heartbeat/config"
+	"github.com/k0ffee/beats/v7/heartbeat/hbregistry"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/plugin"
+	"github.com/k0ffee/beats/v7/heartbeat/scheduler"
+	"github.com/k0ffee/beats/v7/libbeat/autodiscover"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/cfgfile"
+	"github.com/k0ffee/beats/v7/libbeat/common/reload"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/management"
 	conf "github.com/elastic/elastic-agent-libs/config"
 
-	_ "github.com/elastic/beats/v7/heartbeat/security"
+	_ "github.com/k0ffee/beats/v7/heartbeat/security"
 )
 
 // Heartbeat represents the root datastructure of this beat.

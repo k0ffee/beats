@@ -23,10 +23,10 @@ package load
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/metric/system/cpu"
-	"github.com/elastic/beats/v7/libbeat/metric/system/numcpu"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/cpu"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/numcpu"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/mb/parse"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -15,7 +15,7 @@ RUN pip3 install --upgrade setuptools==47.3.2
 RUN pip3 install --upgrade docker-compose==1.23.2
 
 # Setup work environment
-ENV FUNCTIONBEAT_PATH /go/src/github.com/elastic/beats/x-pack/functionbeat
+ENV FUNCTIONBEAT_PATH /go/src/github.com/k0ffee/beats/x-pack/functionbeat
 
 RUN mkdir -p $FUNCTIONBEAT_PATH/build/coverage
 WORKDIR $FUNCTIONBEAT_PATH

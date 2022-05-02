@@ -24,9 +24,9 @@ import (
 	"go.elastic.co/apm/module/apmhttp/v2"
 	"golang.org/x/net/http2"
 
-	"github.com/elastic/beats/v7/libbeat/common/transport"
-	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

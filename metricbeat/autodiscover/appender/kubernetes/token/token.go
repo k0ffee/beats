@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/conditions"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/autodiscover"
+	"github.com/k0ffee/beats/v7/libbeat/common/bus"
+	"github.com/k0ffee/beats/v7/libbeat/common/cfgwarn"
+	"github.com/k0ffee/beats/v7/libbeat/conditions"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

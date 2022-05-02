@@ -26,8 +26,8 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue/queuetest"
+	"github.com/k0ffee/beats/v7/libbeat/publisher/queue"
+	"github.com/k0ffee/beats/v7/libbeat/publisher/queue/queuetest"
 )
 
 var seed int64

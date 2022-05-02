@@ -3,7 +3,7 @@ This file is generated! See scripts/mage/docs_collector.go
 ////
 
 :modulename: envoyproxy
-:edit_url: https://github.com/elastic/beats/edit/main/metricbeat/module/envoyproxy/_meta/docs.asciidoc
+:edit_url: https://github.com/k0ffee/beats/edit/main/metricbeat/module/envoyproxy/_meta/docs.asciidoc
 
 
 [[metricbeat-module-envoyproxy]]

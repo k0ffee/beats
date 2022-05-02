@@ -32,12 +32,12 @@ import (
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/go-sysinfo/types"
 
-	"github.com/elastic/beats/v7/libbeat/common/match"
-	"github.com/elastic/beats/v7/libbeat/common/transform/typeconv"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/metric/system/cgroup"
-	"github.com/elastic/beats/v7/libbeat/metric/system/resolve"
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/k0ffee/beats/v7/libbeat/common/match"
+	"github.com/k0ffee/beats/v7/libbeat/common/transform/typeconv"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/cgroup"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/resolve"
+	"github.com/k0ffee/beats/v7/libbeat/opt"
 	sysinfo "github.com/elastic/go-sysinfo"
 )
 

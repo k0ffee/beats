@@ -28,8 +28,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/look"
-	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/k0ffee/beats/v7/heartbeat/look"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport/tlscommon"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

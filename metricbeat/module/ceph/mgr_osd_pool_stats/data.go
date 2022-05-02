@@ -20,7 +20,7 @@ package mgr_osd_pool_stats
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/module/ceph/mgr"
+	"github.com/k0ffee/beats/v7/metricbeat/module/ceph/mgr"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

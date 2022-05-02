@@ -39,8 +39,8 @@ import (
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/elastic/beats/v7/libbeat/common/file"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/libbeat/common/file"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

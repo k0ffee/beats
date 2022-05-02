@@ -13,8 +13,8 @@ import (
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	lbmanagement "github.com/elastic/beats/v7/libbeat/management"
+	"github.com/k0ffee/beats/v7/libbeat/common/reload"
+	lbmanagement "github.com/k0ffee/beats/v7/libbeat/management"
 )
 
 func TestConfigBlocks(t *testing.T) {

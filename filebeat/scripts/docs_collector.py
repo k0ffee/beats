@@ -39,7 +39,7 @@ This file is generated! See scripts/docs_collector.py
 
         module_file = generated_note
 
-        module_file += ":edit_url: https://github.com/elastic/beats/edit/main/" + module_rel_path + "/_meta/docs.asciidoc\n\n"
+        module_file += ":edit_url: https://github.com/k0ffee/beats/edit/main/" + module_rel_path + "/_meta/docs.asciidoc\n\n"
 
         module_file += "[[filebeat-module-" + module + "]]\n"
 

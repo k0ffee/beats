@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	s "github.com/elastic/beats/v7/libbeat/common/schema"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	s "github.com/k0ffee/beats/v7/libbeat/common/schema"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -24,15 +24,15 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	cfg "github.com/elastic/beats/v7/filebeat/config"
-	"github.com/elastic/beats/v7/filebeat/harvester"
-	"github.com/elastic/beats/v7/filebeat/input/file"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/common/match"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/reader/multiline"
-	"github.com/elastic/beats/v7/libbeat/reader/readfile"
-	"github.com/elastic/beats/v7/libbeat/reader/readjson"
+	cfg "github.com/k0ffee/beats/v7/filebeat/config"
+	"github.com/k0ffee/beats/v7/filebeat/harvester"
+	"github.com/k0ffee/beats/v7/filebeat/input/file"
+	"github.com/k0ffee/beats/v7/libbeat/common/cfgwarn"
+	"github.com/k0ffee/beats/v7/libbeat/common/match"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/reader/multiline"
+	"github.com/k0ffee/beats/v7/libbeat/reader/readfile"
+	"github.com/k0ffee/beats/v7/libbeat/reader/readjson"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

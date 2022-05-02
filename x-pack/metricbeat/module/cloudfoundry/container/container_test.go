@@ -17,11 +17,11 @@ import (
 
 	"github.com/cloudfoundry/sonde-go/events"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/cloudfoundry/mtest"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/mb/parse"
+	mbtest "github.com/k0ffee/beats/v7/metricbeat/mb/testing"
+	"github.com/k0ffee/beats/v7/x-pack/metricbeat/module/cloudfoundry/mtest"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

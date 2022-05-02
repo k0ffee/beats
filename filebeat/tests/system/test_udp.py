@@ -6,7 +6,7 @@ import unittest
 
 class Test(BaseTest):
 
-    @unittest.skipIf(os.name == 'nt', 'flaky test https://github.com/elastic/beats/issues/22809')
+    @unittest.skipIf(os.name == 'nt', 'flaky test https://github.com/k0ffee/beats/issues/22809')
     def test_udp(self):
 
         host = "127.0.0.1"

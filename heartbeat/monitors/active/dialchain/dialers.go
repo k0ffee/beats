@@ -23,11 +23,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/look"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/transport"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/heartbeat/eventext"
+	"github.com/k0ffee/beats/v7/heartbeat/look"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -25,10 +25,10 @@ import (
 	"net"
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/packetbeat/procs"
-	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/packetbeat/procs"
+	"github.com/k0ffee/beats/v7/packetbeat/protos"
 )
 
 func thriftForTests() *thriftPlugin {

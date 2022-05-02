@@ -29,15 +29,15 @@ import (
 
 	"go.elastic.co/apm/module/apmelasticsearch/v2"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/productorigin"
-	"github.com/elastic/beats/v7/libbeat/common/transport"
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/libbeat/common/transport/kerberos"
-	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/v7/libbeat/common/useragent"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/testing"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/common/productorigin"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport/httpcommon"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport/kerberos"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/k0ffee/beats/v7/libbeat/common/useragent"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/testing"
 	cfg "github.com/elastic/elastic-agent-libs/config"
 )
 

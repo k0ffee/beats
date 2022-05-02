@@ -41,7 +41,7 @@ stages:
             tags: true         ## for all the tags
         stage: extended
 # TODO: there are windows test failures already reported
-# https://github.com/elastic/beats/issues/23957 and https://github.com/elastic/beats/issues/23958
+# https://github.com/k0ffee/beats/issues/23957 and https://github.com/k0ffee/beats/issues/23958
 # waiting for being fixed.
 #    windows-2019:
 #        mage: "mage build test"

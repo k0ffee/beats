@@ -11,7 +11,7 @@ from base import BaseTest
 INTEGRATION_TESTS = os.environ.get('INTEGRATION_TESTS', False)
 
 
-@unittest.skip("flaky: https://github.com/elastic/beats/issues/16247")
+@unittest.skip("flaky: https://github.com/k0ffee/beats/issues/16247")
 class Test(BaseTest):
 
     def setUp(self):

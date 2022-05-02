@@ -16,7 +16,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/kinesis"
 	"github.com/awslabs/kinesis-aggregation/go/deaggregator"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -23,7 +23,7 @@ import (
 
 	errw "github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

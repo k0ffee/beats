@@ -8,9 +8,9 @@ services:
       - ES_PASS=testing
       - BEAT_STRICT_PERMS=false
       - TEST_ENVIRONMENT=false
-    working_dir: /go/src/github.com/elastic/beats/metricbeat
+    working_dir: /go/src/github.com/k0ffee/beats/metricbeat
     volumes:
-      - ${PWD}/..:/go/src/github.com/elastic/beats/
+      - ${PWD}/..:/go/src/github.com/k0ffee/beats/
       - /var/run/docker.sock:/var/run/docker.sock
     network_mode: host
     command: make

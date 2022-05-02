@@ -93,7 +93,7 @@ $ git push --set-upstream tsg cool_new_protocol
 
 We are working on updating this section. While you're waiting for updates, you
 might want to try out the TCP protocol generator at
-https://github.com/elastic/beats/tree/master/packetbeat/scripts/tcp-protocol.
+https://github.com/k0ffee/beats/tree/master/packetbeat/scripts/tcp-protocol.
 
 [[protocol-testing]]
 === Testing

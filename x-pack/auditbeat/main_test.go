@@ -10,8 +10,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/tests/system/template"
-	"github.com/elastic/beats/v7/x-pack/auditbeat/cmd"
+	"github.com/k0ffee/beats/v7/libbeat/tests/system/template"
+	"github.com/k0ffee/beats/v7/x-pack/auditbeat/cmd"
 )
 
 var systemTest *bool

@@ -20,7 +20,7 @@ package memqueue
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 )
 
 // Internal event ring buffer.

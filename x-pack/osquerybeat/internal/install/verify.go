@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/distro"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/fileutil"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/osqd"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/x-pack/osquerybeat/internal/distro"
+	"github.com/k0ffee/beats/v7/x-pack/osquerybeat/internal/fileutil"
+	"github.com/k0ffee/beats/v7/x-pack/osquerybeat/internal/osqd"
 )
 
 func execDir() (exedir string, err error) {

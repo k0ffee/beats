@@ -26,11 +26,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/hbtest"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/heartbeat/hbtest"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/wrappers"
+	"github.com/k0ffee/beats/v7/heartbeat/scheduler/schedule"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

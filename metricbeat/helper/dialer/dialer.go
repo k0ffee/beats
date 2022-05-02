@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/transport"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport"
 )
 
 // Builder is a dialer builder.

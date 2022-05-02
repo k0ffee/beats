@@ -23,12 +23,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/elastic/beats/v7/heartbeat/hbregistry"
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/plugin"
+	"github.com/k0ffee/beats/v7/heartbeat/hbregistry"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/jobs"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/wrappers"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/plugin"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

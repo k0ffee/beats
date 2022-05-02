@@ -14,9 +14,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/aws"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/aws/mtest"
+	mbtest "github.com/k0ffee/beats/v7/metricbeat/mb/testing"
+	"github.com/k0ffee/beats/v7/x-pack/metricbeat/module/aws"
+	"github.com/k0ffee/beats/v7/x-pack/metricbeat/module/aws/mtest"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

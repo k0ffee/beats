@@ -33,7 +33,7 @@ core team will backport your PR if it is necessary.
 
 In the pull request, describe what your changes do and mention
 any bugs/issues related to the pull request. Please also add a changelog entry to
-https://github.com/elastic/beats/blob/main/CHANGELOG.next.asciidoc[CHANGELOG.next.asciidoc].
+https://github.com/k0ffee/beats/blob/main/CHANGELOG.next.asciidoc[CHANGELOG.next.asciidoc].
 
 [float]
 [[setting-up-dev-environment]]
@@ -237,4 +237,4 @@ The following packages are required to run `go generate`:
 
 To keep up to date with changes to the official Beats for community developers,
 follow the developer changelog
-https://github.com/elastic/beats/blob/main/CHANGELOG-developer.next.asciidoc[here].
+https://github.com/k0ffee/beats/blob/main/CHANGELOG-developer.next.asciidoc[here].

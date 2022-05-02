@@ -39,8 +39,8 @@ import (
 	"github.com/elastic/go-libaudit/v2"
 	"github.com/elastic/go-libaudit/v2/aucoalesce"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	mbtest "github.com/k0ffee/beats/v7/metricbeat/mb/testing"
 )
 
 const (

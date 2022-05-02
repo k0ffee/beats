@@ -24,12 +24,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/scheduler"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/beat/events"
-	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
-	"github.com/elastic/beats/v7/libbeat/processors/add_data_stream"
+	"github.com/k0ffee/beats/v7/heartbeat/scheduler"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/beat/events"
+	"github.com/k0ffee/beats/v7/libbeat/common/fmtstr"
+	"github.com/k0ffee/beats/v7/libbeat/monitoring"
+	"github.com/k0ffee/beats/v7/libbeat/processors/add_data_stream"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

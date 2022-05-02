@@ -23,12 +23,12 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
-	"github.com/elastic/beats/v7/libbeat/outputs/elasticsearch"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/cfgfile"
+	"github.com/k0ffee/beats/v7/libbeat/esleg/eslegclient"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/monitoring"
+	"github.com/k0ffee/beats/v7/libbeat/outputs/elasticsearch"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

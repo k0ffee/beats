@@ -23,7 +23,7 @@ package info
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/k0ffee/beats/v7/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

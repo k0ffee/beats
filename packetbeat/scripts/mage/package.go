@@ -23,7 +23,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
+	devtools "github.com/k0ffee/beats/v7/dev-tools/mage"
 )
 
 // CustomizePackaging modifies the device in the configuration files based on

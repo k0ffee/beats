@@ -23,7 +23,7 @@ import (
 
 	"github.com/magefile/mage/sh"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
+	devtools "github.com/k0ffee/beats/v7/dev-tools/mage"
 )
 
 // CreateMetricset creates a new metricset.

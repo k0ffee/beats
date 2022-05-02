@@ -23,10 +23,10 @@ import (
 
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/elastic/beats/v7/filebeat/input"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/filebeat/input"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/cfgfile"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 
@@ -112,7 +112,7 @@ func (c *crawler) startInput(
 	pipeline beat.PipelineConnector,
 	config *conf.C,
 ) error {
-	// TODO: Either use debug or remove it after https://github.com/elastic/beats/pull/30534
+	// TODO: Either use debug or remove it after https://github.com/k0ffee/beats/pull/30534
 	// is fixed.
 	c.log.Infof("starting input, keys present on the config: %v",
 		config.FlattenedKeys())

@@ -28,7 +28,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/metric/system/cgroup/cgcommon"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/cgroup/cgcommon"
 	"github.com/elastic/gosigar/sys/linux"
 )
 

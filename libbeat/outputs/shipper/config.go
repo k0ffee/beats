@@ -20,7 +20,7 @@ package shipper
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport/tlscommon"
 )
 
 type Config struct {

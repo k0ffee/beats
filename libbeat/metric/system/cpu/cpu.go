@@ -21,8 +21,8 @@
 package cpu
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/metric/system/numcpu"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/numcpu"
 	sigar "github.com/elastic/gosigar"
 )
 

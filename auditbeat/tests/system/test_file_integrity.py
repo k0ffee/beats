@@ -63,7 +63,7 @@ class Test(BaseTest):
                 break
 
     @unittest.skipIf(os.getenv("CI") is not None and platform.system() == 'Darwin',
-                     'Flaky test: https://github.com/elastic/beats/issues/24678')
+                     'Flaky test: https://github.com/k0ffee/beats/issues/24678')
     def test_non_recursive(self):
         """
         file_integrity monitors watched directories (non recursive).
@@ -134,7 +134,7 @@ class Test(BaseTest):
             # assert file inside subdir is not reported
             assert self.log_contains(file3) is False
 
-    @unittest.skipIf(os.getenv("BUILD_ID") is not None, "Skipped as flaky: https://github.com/elastic/beats/issues/7731")
+    @unittest.skipIf(os.getenv("BUILD_ID") is not None, "Skipped as flaky: https://github.com/k0ffee/beats/issues/7731")
     def test_recursive(self):
         """
         file_integrity monitors watched directories (recursive).

@@ -35,9 +35,9 @@ import (
 	"github.com/magefile/mage/sh"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/dev-tools/mage/gotool"
-	"github.com/elastic/beats/v7/libbeat/dashboards"
-	"github.com/elastic/beats/v7/libbeat/processors/dissect"
+	"github.com/k0ffee/beats/v7/dev-tools/mage/gotool"
+	"github.com/k0ffee/beats/v7/libbeat/dashboards"
+	"github.com/k0ffee/beats/v7/libbeat/processors/dissect"
 )
 
 // Check looks for created/modified/deleted/renamed files and returns an error

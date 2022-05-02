@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
 )
 
 // MockBeatClient mocks the Client interface

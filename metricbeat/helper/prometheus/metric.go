@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/common"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
 	dto "github.com/prometheus/client_model/go"

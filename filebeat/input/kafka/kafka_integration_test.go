@@ -30,18 +30,18 @@ import (
 	"testing"
 	"time"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	beattest "github.com/elastic/beats/v7/libbeat/publisher/testing"
+	v2 "github.com/k0ffee/beats/v7/filebeat/input/v2"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	beattest "github.com/k0ffee/beats/v7/libbeat/publisher/testing"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
 	"github.com/Shopify/sarama"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/format"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/json"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/codec/format"
+	_ "github.com/k0ffee/beats/v7/libbeat/outputs/codec/json"
 )
 
 const (

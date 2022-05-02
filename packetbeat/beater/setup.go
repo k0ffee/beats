@@ -18,13 +18,13 @@
 package beater
 
 import (
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/processors"
-	"github.com/elastic/beats/v7/packetbeat/config"
-	"github.com/elastic/beats/v7/packetbeat/flows"
-	"github.com/elastic/beats/v7/packetbeat/procs"
-	"github.com/elastic/beats/v7/packetbeat/protos"
-	"github.com/elastic/beats/v7/packetbeat/sniffer"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/processors"
+	"github.com/k0ffee/beats/v7/packetbeat/config"
+	"github.com/k0ffee/beats/v7/packetbeat/flows"
+	"github.com/k0ffee/beats/v7/packetbeat/procs"
+	"github.com/k0ffee/beats/v7/packetbeat/protos"
+	"github.com/k0ffee/beats/v7/packetbeat/sniffer"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -17,7 +17,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/source/fixtures"
+	"github.com/k0ffee/beats/v7/x-pack/heartbeat/monitors/browser/source/fixtures"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

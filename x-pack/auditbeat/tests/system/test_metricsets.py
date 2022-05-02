@@ -43,12 +43,12 @@ class Test(AuditbeatXPackTest):
         # Metricset is beta and that generates a warning, TODO: remove later
         self.check_metricset("system", "login", COMMON_FIELDS + fields, config, warnings_allowed=True)
 
-    # 1/20 build fails https://github.com/elastic/beats/issues/21308
+    # 1/20 build fails https://github.com/k0ffee/beats/issues/21308
     @pytest.mark.flaky(reruns=1, reruns_delay=10)
     @unittest.skipIf(sys.platform == "win32", "Not implemented for Windows")
     @unittest.skipIf(sys.platform.startswith('linux') and not (os.path.isdir("/var/lib/dpkg") or os.path.isdir("/var/lib/rpm")),
                      "Only implemented for dpkg and rpm")
-    @unittest.skipIf(sys.platform.startswith('darwin'), "See https://github.com/elastic/beats/issues/21308")
+    @unittest.skipIf(sys.platform.startswith('darwin'), "See https://github.com/k0ffee/beats/issues/21308")
     def test_metricset_package(self):
         """
         package metricset collects information about installed packages on a system.

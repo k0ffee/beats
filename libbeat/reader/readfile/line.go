@@ -24,8 +24,8 @@ import (
 
 	"golang.org/x/text/transform"
 
-	"github.com/elastic/beats/v7/libbeat/common/streambuf"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/common/streambuf"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 )
 
 const unlimited = 0

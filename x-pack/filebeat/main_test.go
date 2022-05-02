@@ -9,9 +9,9 @@ import (
 	"os"
 	"testing"
 
-	cmd "github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/tests/system/template"
-	fbcmd "github.com/elastic/beats/v7/x-pack/filebeat/cmd"
+	cmd "github.com/k0ffee/beats/v7/libbeat/cmd"
+	"github.com/k0ffee/beats/v7/libbeat/tests/system/template"
+	fbcmd "github.com/k0ffee/beats/v7/x-pack/filebeat/cmd"
 )
 
 var (

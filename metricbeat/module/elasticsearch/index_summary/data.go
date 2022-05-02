@@ -21,13 +21,13 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/elastic"
+	"github.com/k0ffee/beats/v7/metricbeat/helper/elastic"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	s "github.com/elastic/beats/v7/libbeat/common/schema"
-	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/elasticsearch"
+	s "github.com/k0ffee/beats/v7/libbeat/common/schema"
+	c "github.com/k0ffee/beats/v7/libbeat/common/schema/mapstriface"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/module/elasticsearch"
 )
 
 var (

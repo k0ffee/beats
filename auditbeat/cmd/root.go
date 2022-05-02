@@ -21,13 +21,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/elastic/beats/v7/auditbeat/core"
-	"github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/ecs"
-	"github.com/elastic/beats/v7/libbeat/publisher/processing"
-	"github.com/elastic/beats/v7/metricbeat/beater"
-	"github.com/elastic/beats/v7/metricbeat/mb/module"
+	"github.com/k0ffee/beats/v7/auditbeat/core"
+	"github.com/k0ffee/beats/v7/libbeat/cmd"
+	"github.com/k0ffee/beats/v7/libbeat/cmd/instance"
+	"github.com/k0ffee/beats/v7/libbeat/ecs"
+	"github.com/k0ffee/beats/v7/libbeat/publisher/processing"
+	"github.com/k0ffee/beats/v7/metricbeat/beater"
+	"github.com/k0ffee/beats/v7/metricbeat/mb/module"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

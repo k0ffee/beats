@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/common/kubernetes/metadata"
+	"github.com/k0ffee/beats/v7/libbeat/common/kubernetes/metadata"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
@@ -30,7 +30,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/elastic/beats/v7/libbeat/common/kubernetes"
+	"github.com/k0ffee/beats/v7/libbeat/common/kubernetes"
 )
 
 var addResourceMetadata = metadata.GetDefaultResourceMetadataConfig()

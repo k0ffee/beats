@@ -20,8 +20,8 @@ package memory
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/metric/system/resolve"
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/resolve"
+	"github.com/k0ffee/beats/v7/libbeat/opt"
 	"github.com/elastic/go-windows"
 )
 

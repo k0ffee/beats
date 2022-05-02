@@ -20,10 +20,10 @@ package info
 import (
 	"github.com/pkg/errors"
 
-	s "github.com/elastic/beats/v7/libbeat/common/schema"
-	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstrstr"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/haproxy"
+	s "github.com/k0ffee/beats/v7/libbeat/common/schema"
+	c "github.com/k0ffee/beats/v7/libbeat/common/schema/mapstrstr"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/module/haproxy"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
 	"reflect"

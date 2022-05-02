@@ -74,7 +74,7 @@ Vagrant.configure("2") do |config|
   # Docker config. Run with --provision-with docker,shell
   # For now this script is only going to work on the ubuntu images.
   # How to run tests from within docker, from within the container:
-  #  docker run -v $(pwd):"/root/go/src/github.com/elastic/beats" -w /root/go/src/github.com/elastic/beats/metricbeat/module/system/process --entrypoint="/usr/local/go/bin/go" -it docker.elastic.co/beats-dev/golang-crossbuild:1.16.6-darwin-debian10 test -v -tags=integrations -run TestFetch
+  #  docker run -v $(pwd):"/root/go/src/github.com/elastic/beats" -w /root/go/src/github.com/k0ffee/beats/metricbeat/module/system/process --entrypoint="/usr/local/go/bin/go" -it docker.elastic.co/beats-dev/golang-crossbuild:1.16.6-darwin-debian10 test -v -tags=integrations -run TestFetch
   config.vm.provision "docker", type: "shell", run: "never" do |s|
     s.path = "dev-tools/vagrant_scripts/dockerProvision.sh"
   end

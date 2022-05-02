@@ -20,15 +20,15 @@ package cassandra
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	conf "github.com/elastic/elastic-agent-libs/config"
 
-	"github.com/elastic/beats/v7/packetbeat/procs"
-	"github.com/elastic/beats/v7/packetbeat/protos"
-	"github.com/elastic/beats/v7/packetbeat/protos/tcp"
+	"github.com/k0ffee/beats/v7/packetbeat/procs"
+	"github.com/k0ffee/beats/v7/packetbeat/protos"
+	"github.com/k0ffee/beats/v7/packetbeat/protos/tcp"
 
-	gocql "github.com/elastic/beats/v7/packetbeat/protos/cassandra/internal/gocql"
+	gocql "github.com/k0ffee/beats/v7/packetbeat/protos/cassandra/internal/gocql"
 )
 
 // cassandra application level protocol analyzer plugin

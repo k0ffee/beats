@@ -20,9 +20,9 @@ package add_formatted_index
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/beat/events"
-	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/beat/events"
+	"github.com/k0ffee/beats/v7/libbeat/common/fmtstr"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -18,8 +18,8 @@
 package pipetool
 
 import (
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/acker"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/common/acker"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

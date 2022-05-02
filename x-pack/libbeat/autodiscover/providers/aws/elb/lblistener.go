@@ -7,7 +7,7 @@ package elb
 import (
 	"github.com/aws/aws-sdk-go-v2/service/elasticloadbalancingv2"
 
-	awsauto "github.com/elastic/beats/v7/x-pack/libbeat/autodiscover/providers/aws"
+	awsauto "github.com/k0ffee/beats/v7/x-pack/libbeat/autodiscover/providers/aws"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

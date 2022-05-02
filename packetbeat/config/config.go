@@ -21,8 +21,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/processors"
-	"github.com/elastic/beats/v7/packetbeat/procs"
+	"github.com/k0ffee/beats/v7/libbeat/processors"
+	"github.com/k0ffee/beats/v7/packetbeat/procs"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

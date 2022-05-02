@@ -29,8 +29,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/elastic/beats/v7/libbeat/common/cleanup"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/common/cleanup"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -15,11 +15,11 @@ import (
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover/template"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/tests/resources"
-	"github.com/elastic/beats/v7/x-pack/libbeat/common/nomad"
+	"github.com/k0ffee/beats/v7/libbeat/autodiscover/template"
+	"github.com/k0ffee/beats/v7/libbeat/common/bus"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/tests/resources"
+	"github.com/k0ffee/beats/v7/x-pack/libbeat/common/nomad"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

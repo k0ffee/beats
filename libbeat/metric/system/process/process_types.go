@@ -20,8 +20,8 @@ package process
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/metric/system/cgroup"
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/cgroup"
+	"github.com/k0ffee/beats/v7/libbeat/opt"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

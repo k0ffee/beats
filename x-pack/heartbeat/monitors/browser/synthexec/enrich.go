@@ -8,15 +8,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat/events"
-	"github.com/elastic/beats/v7/libbeat/processors/add_data_stream"
+	"github.com/k0ffee/beats/v7/libbeat/beat/events"
+	"github.com/k0ffee/beats/v7/libbeat/processors/add_data_stream"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/monitors/logger"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/heartbeat/eventext"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/logger"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
 )
 
 type enricher func(event *beat.Event, se *SynthEvent, fields StdSuiteFields) error

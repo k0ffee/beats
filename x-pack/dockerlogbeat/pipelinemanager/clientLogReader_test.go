@@ -18,9 +18,9 @@ import (
 
 	"github.com/docker/docker/daemon/logger/jsonfilelog"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/x-pack/dockerlogbeat/pipelinemock"
-	"github.com/elastic/beats/v7/x-pack/dockerlogbeat/pipereader"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/x-pack/dockerlogbeat/pipelinemock"
+	"github.com/k0ffee/beats/v7/x-pack/dockerlogbeat/pipereader"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

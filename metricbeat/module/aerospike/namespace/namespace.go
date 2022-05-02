@@ -23,8 +23,8 @@ import (
 	as "github.com/aerospike/aerospike-client-go"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/aerospike"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/module/aerospike"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

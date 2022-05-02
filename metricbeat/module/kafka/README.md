@@ -47,7 +47,7 @@ listeners = INSIDE://localhost:9091,OUTSIDE://0.0.0.0:9092
 
 So here the advertised addressed to be used in the config is `172.26.0.2:9092`.
 
-This difference comes from here: https://github.com/elastic/beats/blob/v7.5.2/libbeat/tests/compose/wrapper.go#L137
+This difference comes from here: https://github.com/k0ffee/beats/blob/v7.5.2/libbeat/tests/compose/wrapper.go#L137
 
 This was needed before moving the metricbeat docker used in CI to host network, we can maybe remove this now if it complicates things.
 
@@ -55,7 +55,7 @@ This was needed before moving the metricbeat docker used in CI to host network, 
 #### Configuring Kafka module
 In order to configure the Module we will use the advertised addressed to connect to the broker and the credentials
 that are also used for the tests 
-(see [test config](https://github.com/elastic/beats/blob/6c279ebf2789655725889f37820c959a8f2ea969/metricbeat/module/kafka/consumergroup/consumergroup_integration_test.go#L39)).
+(see [test config](https://github.com/k0ffee/beats/blob/6c279ebf2789655725889f37820c959a8f2ea969/metricbeat/module/kafka/consumergroup/consumergroup_integration_test.go#L39)).
 Here is how the config should look like (in a MAC):
 
 ```yaml
@@ -74,7 +74,7 @@ Here is how the config should look like (in a MAC):
 #### Starting extra Producers/Consumers
 In order to create more stats for the Kafka Module, one could create more Producer/Consumer pairs (or combinations).
 For this we will reuse the scripts that are used withing the Docker container to bring up a Producer/Consumer pair for the testing.
-See the [source](https://github.com/elastic/beats/blob/87c49acb60b277a24c60c3956e9b4e23a644bce8/metricbeat/module/kafka/_meta/run.sh#L75).
+See the [source](https://github.com/k0ffee/beats/blob/87c49acb60b277a24c60c3956e9b4e23a644bce8/metricbeat/module/kafka/_meta/run.sh#L75).
 
 Here are the commands:
 

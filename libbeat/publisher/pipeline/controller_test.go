@@ -23,16 +23,16 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/internal/testutil"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/publisher"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/common/atomic"
+	"github.com/k0ffee/beats/v7/libbeat/internal/testutil"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/outputs"
+	"github.com/k0ffee/beats/v7/libbeat/publisher"
+	"github.com/k0ffee/beats/v7/libbeat/publisher/queue"
+	"github.com/k0ffee/beats/v7/libbeat/publisher/queue/memqueue"
 
-	//"github.com/elastic/beats/v7/libbeat/tests/resources"
+	//"github.com/k0ffee/beats/v7/libbeat/tests/resources"
 
 	"github.com/stretchr/testify/require"
 )
@@ -47,7 +47,7 @@ func TestOutputReload(t *testing.T) {
 		t.Run(name, func(t *testing.T) {
 			testutil.SeedPRNG(t)
 
-			// Flaky check: https://github.com/elastic/beats/issues/21656
+			// Flaky check: https://github.com/k0ffee/beats/issues/21656
 			//goroutines := resources.NewGoroutinesChecker()
 			//defer goroutines.Check(t)
 

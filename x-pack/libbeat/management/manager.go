@@ -20,10 +20,10 @@ import (
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	lbmanagement "github.com/elastic/beats/v7/libbeat/management"
+	"github.com/k0ffee/beats/v7/libbeat/common/cfgwarn"
+	"github.com/k0ffee/beats/v7/libbeat/common/reload"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	lbmanagement "github.com/k0ffee/beats/v7/libbeat/management"
 )
 
 var notReportedErrors = []error{

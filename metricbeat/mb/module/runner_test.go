@@ -23,10 +23,10 @@ package module_test
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	pubtest "github.com/elastic/beats/v7/libbeat/publisher/testing"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/module"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	pubtest "github.com/k0ffee/beats/v7/libbeat/publisher/testing"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/mb/module"
 	conf "github.com/elastic/elastic-agent-libs/config"
 
 	"github.com/stretchr/testify/assert"

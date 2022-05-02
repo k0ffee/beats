@@ -26,9 +26,9 @@ import (
 
 	"github.com/urso/sderr"
 
-	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	loginp "github.com/k0ffee/beats/v7/filebeat/input/filestream/internal/input-logfile"
+	input "github.com/k0ffee/beats/v7/filebeat/input/v2"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	"github.com/elastic/go-concert/unison"
 )
 

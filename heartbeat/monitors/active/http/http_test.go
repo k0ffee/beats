@@ -41,14 +41,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/hbtest"
-	"github.com/elastic/beats/v7/heartbeat/hbtestllext"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/file"
-	btesting "github.com/elastic/beats/v7/libbeat/testing"
+	"github.com/k0ffee/beats/v7/heartbeat/hbtest"
+	"github.com/k0ffee/beats/v7/heartbeat/hbtestllext"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/wrappers"
+	"github.com/k0ffee/beats/v7/heartbeat/scheduler/schedule"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/common/file"
+	btesting "github.com/k0ffee/beats/v7/libbeat/testing"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/go-lookslike"
@@ -570,7 +570,7 @@ func TestExpiredHTTPSServer(t *testing.T) {
 
 func TestHTTPSx509Auth(t *testing.T) {
 	if runtime.GOOS == "windows" && bits.UintSize == 32 {
-		t.Skip("flaky test: https://github.com/elastic/beats/issues/25857")
+		t.Skip("flaky test: https://github.com/k0ffee/beats/issues/25857")
 	}
 	wd, err := os.Getwd()
 	require.NoError(t, err)
@@ -679,7 +679,7 @@ func TestRedirect(t *testing.T) {
 	job := wrappers.WrapCommon(p.Jobs, stdfields.StdMonitorFields{ID: "test", Type: "http", Schedule: sched, Timeout: 1})[0]
 
 	// Run this test multiple times since in the past we had an issue where the redirects
-	// list was added onto by each request. See https://github.com/elastic/beats/pull/15944
+	// list was added onto by each request. See https://github.com/k0ffee/beats/pull/15944
 	for i := 0; i < 10; i++ {
 		event := &beat.Event{}
 		_, err = job(event)
@@ -747,7 +747,7 @@ func TestNoHeaders(t *testing.T) {
 
 func TestProxy(t *testing.T) {
 	if runtime.GOOS == "windows" && bits.UintSize == 32 {
-		t.Skip("flaky test: https://github.com/elastic/beats/issues/25857")
+		t.Skip("flaky test: https://github.com/k0ffee/beats/issues/25857")
 	}
 	server := httptest.NewTLSServer(hbtest.HelloWorldHandler(http.StatusOK))
 	proxy := httptest.NewServer(http.HandlerFunc(httpConnectTunnel))
@@ -758,7 +758,7 @@ func TestProxy(t *testing.T) {
 
 func TestTLSProxy(t *testing.T) {
 	if runtime.GOOS == "windows" && bits.UintSize == 32 {
-		t.Skip("flaky test: https://github.com/elastic/beats/issues/25857")
+		t.Skip("flaky test: https://github.com/k0ffee/beats/issues/25857")
 	}
 	server := httptest.NewTLSServer(hbtest.HelloWorldHandler(http.StatusOK))
 	proxy := httptest.NewTLSServer(http.HandlerFunc(httpConnectTunnel))

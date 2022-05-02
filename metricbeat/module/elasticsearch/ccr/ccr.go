@@ -20,13 +20,13 @@ package ccr
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/elastic"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/elasticsearch"
+	"github.com/k0ffee/beats/v7/metricbeat/helper/elastic"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/module/elasticsearch"
 )
 
 func init() {

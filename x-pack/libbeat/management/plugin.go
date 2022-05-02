@@ -5,8 +5,8 @@
 package management
 
 import (
-	"github.com/elastic/beats/v7/libbeat/feature"
-	lbmanagement "github.com/elastic/beats/v7/libbeat/management"
+	"github.com/k0ffee/beats/v7/libbeat/feature"
+	lbmanagement "github.com/k0ffee/beats/v7/libbeat/management"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

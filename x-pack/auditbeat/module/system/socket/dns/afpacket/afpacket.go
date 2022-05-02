@@ -19,14 +19,14 @@ import (
 	"github.com/miekg/dns"
 	"golang.org/x/net/bpf"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/afpacket"
 	"github.com/google/gopacket/layers"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	parent "github.com/elastic/beats/v7/x-pack/auditbeat/module/system/socket/dns"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	parent "github.com/k0ffee/beats/v7/x-pack/auditbeat/module/system/socket/dns"
 )
 
 var udpSrcPort53Filter = []bpf.RawInstruction{

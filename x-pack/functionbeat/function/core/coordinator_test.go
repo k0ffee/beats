@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/x-pack/functionbeat/function/telemetry"
+	"github.com/k0ffee/beats/v7/x-pack/functionbeat/function/telemetry"
 )
 
 var errUnhappy = errors.New("unhappy :(")

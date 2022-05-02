@@ -36,13 +36,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegtest"
-	"github.com/elastic/beats/v7/libbeat/idxmgmt"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/outputs/outest"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/esleg/eslegtest"
+	"github.com/k0ffee/beats/v7/libbeat/idxmgmt"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/monitoring"
+	"github.com/k0ffee/beats/v7/libbeat/outputs"
+	"github.com/k0ffee/beats/v7/libbeat/outputs/outest"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
@@ -57,7 +57,7 @@ func TestClientPublishEvent(t *testing.T) {
 }
 
 func TestClientPublishEventKerberosAware(t *testing.T) {
-	t.Skip("Flaky test: https://github.com/elastic/beats/issues/21295")
+	t.Skip("Flaky test: https://github.com/k0ffee/beats/issues/21295")
 
 	err := setupRoleMapping(t, eslegtest.GetEsKerberosHost())
 	if err != nil {

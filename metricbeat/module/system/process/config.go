@@ -18,8 +18,8 @@
 package process
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/metric/system/process"
+	"github.com/k0ffee/beats/v7/libbeat/common/cfgwarn"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/process"
 )
 
 // Config stores the system/process config options

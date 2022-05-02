@@ -7,8 +7,8 @@ package browser
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/source"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/synthexec"
+	"github.com/k0ffee/beats/v7/x-pack/heartbeat/monitors/browser/source"
+	"github.com/k0ffee/beats/v7/x-pack/heartbeat/monitors/browser/synthexec"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

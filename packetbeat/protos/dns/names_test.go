@@ -32,7 +32,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/packetbeat/pb"
+	"github.com/k0ffee/beats/v7/packetbeat/pb"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

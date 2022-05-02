@@ -20,10 +20,10 @@ package timeseries
 import (
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/mapping"
-	"github.com/elastic/beats/v7/libbeat/processors"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/common/cfgwarn"
+	"github.com/k0ffee/beats/v7/libbeat/mapping"
+	"github.com/k0ffee/beats/v7/libbeat/processors"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
 	"github.com/mitchellh/hashstructure"

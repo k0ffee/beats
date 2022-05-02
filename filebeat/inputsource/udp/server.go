@@ -22,9 +22,9 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/beats/v7/filebeat/inputsource"
-	"github.com/elastic/beats/v7/filebeat/inputsource/common/dgram"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/filebeat/inputsource"
+	"github.com/k0ffee/beats/v7/filebeat/inputsource/common/dgram"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 )
 
 // Name is the human readable name and identifier.

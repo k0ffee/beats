@@ -28,10 +28,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/hbtest"
-	"github.com/elastic/beats/v7/heartbeat/hbtestllext"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	btesting "github.com/elastic/beats/v7/libbeat/testing"
+	"github.com/k0ffee/beats/v7/heartbeat/hbtest"
+	"github.com/k0ffee/beats/v7/heartbeat/hbtestllext"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	btesting "github.com/k0ffee/beats/v7/libbeat/testing"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/testslike"

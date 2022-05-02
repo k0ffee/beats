@@ -28,4 +28,4 @@ jobs:
     - name: Run build
       run: cd ${{ env.BEAT_MODULE }} && mage build
     - name: Run test
-      run: cd ${{ env.BEAT_MODULE }} && echo "See https://github.com/elastic/beats/issues/29038"
+      run: cd ${{ env.BEAT_MODULE }} && echo "See https://github.com/k0ffee/beats/issues/29038"

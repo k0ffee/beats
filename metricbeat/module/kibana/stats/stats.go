@@ -22,11 +22,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common/productorigin"
-	"github.com/elastic/beats/v7/metricbeat/helper"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	"github.com/elastic/beats/v7/metricbeat/module/kibana"
+	"github.com/k0ffee/beats/v7/libbeat/common/productorigin"
+	"github.com/k0ffee/beats/v7/metricbeat/helper"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/mb/parse"
+	"github.com/k0ffee/beats/v7/metricbeat/module/kibana"
 )
 
 // init registers the MetricSet with the central registry.

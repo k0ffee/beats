@@ -20,7 +20,7 @@ package heap
 import (
 	"runtime"
 
-	"github.com/elastic/beats/v7/metricbeat/module/golang"
+	"github.com/k0ffee/beats/v7/metricbeat/module/golang"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -22,9 +22,9 @@ import (
 
 	libmqtt "github.com/eclipse/paho.mqtt.golang"
 
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/backoff"
+	"github.com/k0ffee/beats/v7/filebeat/channel"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/common/backoff"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

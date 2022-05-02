@@ -23,11 +23,11 @@ package state_statefulset
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/prometheus/ptest"
+	"github.com/k0ffee/beats/v7/metricbeat/helper/prometheus/ptest"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/k0ffee/beats/v7/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/v7/metricbeat/module/kubernetes"
+	_ "github.com/k0ffee/beats/v7/metricbeat/module/kubernetes"
 )
 
 func TestEventMapping(t *testing.T) {

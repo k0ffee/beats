@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/source"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/synthexec"
+	"github.com/k0ffee/beats/v7/x-pack/heartbeat/monitors/browser/source"
+	"github.com/k0ffee/beats/v7/x-pack/heartbeat/monitors/browser/synthexec"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

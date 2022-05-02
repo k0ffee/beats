@@ -11,7 +11,7 @@ GOLANG_FIELDS = metricbeat.COMMON_FIELDS + ["golang"]
 class Test(metricbeat.BaseTest):
 
     @unittest.skipIf(platform.platform().startswith("Windows-10"),
-                     "flakey test: https://github.com/elastic/beats/issues/25858")
+                     "flakey test: https://github.com/k0ffee/beats/issues/25858")
     def test_stats(self):
         """
         golang heap test

@@ -6,9 +6,9 @@ services:
     environment:
       - BEAT_STRICT_PERMS=false
       - TEST_ENVIRONMENT=false
-    working_dir: /go/src/github.com/elastic/beats/x-pack/metricbeat
+    working_dir: /go/src/github.com/k0ffee/beats/x-pack/metricbeat
     volumes:
-      - ${PWD}/../..:/go/src/github.com/elastic/beats/
+      - ${PWD}/../..:/go/src/github.com/k0ffee/beats/
       - /var/run/docker.sock:/var/run/docker.sock
       - ${HOME}/.docker:/root/.docker:ro
     network_mode: host

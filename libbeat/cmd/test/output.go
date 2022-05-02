@@ -23,10 +23,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/idxmgmt"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/testing"
+	"github.com/k0ffee/beats/v7/libbeat/cmd/instance"
+	"github.com/k0ffee/beats/v7/libbeat/idxmgmt"
+	"github.com/k0ffee/beats/v7/libbeat/outputs"
+	"github.com/k0ffee/beats/v7/libbeat/testing"
 )
 
 func GenTestOutputCmd(settings instance.Settings) *cobra.Command {

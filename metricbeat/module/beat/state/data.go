@@ -20,15 +20,15 @@ package state
 import (
 	"encoding/json"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/elastic"
+	"github.com/k0ffee/beats/v7/metricbeat/helper/elastic"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
 	"github.com/pkg/errors"
 
-	s "github.com/elastic/beats/v7/libbeat/common/schema"
-	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/beat"
+	s "github.com/k0ffee/beats/v7/libbeat/common/schema"
+	c "github.com/k0ffee/beats/v7/libbeat/common/schema/mapstriface"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/module/beat"
 )
 
 var (

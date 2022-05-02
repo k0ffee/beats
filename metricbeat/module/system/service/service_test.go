@@ -27,7 +27,7 @@ import (
 	"github.com/coreos/go-systemd/v22/dbus"
 	"github.com/stretchr/testify/assert"
 
-	_ "github.com/elastic/beats/v7/metricbeat/module/system"
+	_ "github.com/k0ffee/beats/v7/metricbeat/module/system"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

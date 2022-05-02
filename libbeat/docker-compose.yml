@@ -28,16 +28,16 @@ services:
       - ES_MONITORING_HOST=elasticsearch_monitoring
       - ES_MONITORING_PORT=9200
       - ES_HOST_SSL=elasticsearchssl
-      # See https://github.com/elastic/beats/issues/21838
+      # See https://github.com/k0ffee/beats/issues/21838
       # - ES_KERBEROS_HOST=elasticsearch_kerberos.elastic
       - ES_PORT_SSL=9200
       - ES_SUPERUSER_USER=admin
       - ES_SUPERUSER_PASS=testing
     volumes:
-      - ${PWD}/..:/go/src/github.com/elastic/beats/
+      - ${PWD}/..:/go/src/github.com/k0ffee/beats/
       # Used for docker integration tests:
       - /var/run/docker.sock:/var/run/docker.sock
-    working_dir: /go/src/github.com/elastic/beats/libbeat
+    working_dir: /go/src/github.com/k0ffee/beats/libbeat
     command: make
 
   # This is a proxy used to block beats until all services are healthy.
@@ -46,7 +46,7 @@ services:
     image: busybox
     depends_on:
       elasticsearch:                  { condition: service_healthy }
-      # See https://github.com/elastic/beats/issues/21838
+      # See https://github.com/k0ffee/beats/issues/21838
       # elasticsearch_kerberos.elastic: { condition: service_healthy }
       elasticsearch_monitoring:       { condition: service_healthy }
       elasticsearchssl:               { condition: service_healthy }

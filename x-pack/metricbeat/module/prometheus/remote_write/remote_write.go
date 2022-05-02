@@ -5,9 +5,9 @@
 package remote_write
 
 import (
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	"github.com/elastic/beats/v7/metricbeat/module/prometheus/remote_write"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/mb/parse"
+	"github.com/k0ffee/beats/v7/metricbeat/module/prometheus/remote_write"
 )
 
 func init() {

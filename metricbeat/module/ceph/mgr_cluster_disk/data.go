@@ -20,7 +20,7 @@ package mgr_cluster_disk
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/module/ceph/mgr"
+	"github.com/k0ffee/beats/v7/metricbeat/module/ceph/mgr"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

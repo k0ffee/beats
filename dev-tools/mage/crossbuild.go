@@ -32,7 +32,7 @@ import (
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
 
-	"github.com/elastic/beats/v7/dev-tools/mage/gotool"
+	"github.com/k0ffee/beats/v7/dev-tools/mage/gotool"
 	"github.com/elastic/elastic-agent-libs/file"
 )
 

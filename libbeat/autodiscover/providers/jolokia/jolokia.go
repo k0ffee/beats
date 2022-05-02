@@ -23,10 +23,10 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	"github.com/elastic/beats/v7/libbeat/autodiscover/template"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/keystore"
+	"github.com/k0ffee/beats/v7/libbeat/autodiscover"
+	"github.com/k0ffee/beats/v7/libbeat/autodiscover/template"
+	"github.com/k0ffee/beats/v7/libbeat/common/bus"
+	"github.com/k0ffee/beats/v7/libbeat/keystore"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

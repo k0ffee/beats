@@ -23,9 +23,9 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/beats/v7/libbeat/common/match"
-	"github.com/elastic/beats/v7/libbeat/reader/parser"
-	"github.com/elastic/beats/v7/libbeat/reader/readfile"
+	"github.com/k0ffee/beats/v7/libbeat/common/match"
+	"github.com/k0ffee/beats/v7/libbeat/reader/parser"
+	"github.com/k0ffee/beats/v7/libbeat/reader/readfile"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

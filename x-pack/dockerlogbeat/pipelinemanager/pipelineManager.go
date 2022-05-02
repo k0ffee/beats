@@ -14,7 +14,7 @@ import (
 
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/elastic/beats/v7/x-pack/dockerlogbeat/pipereader"
+	"github.com/k0ffee/beats/v7/x-pack/dockerlogbeat/pipereader"
 	"github.com/elastic/elastic-agent-libs/config"
 
 	"github.com/pkg/errors"
@@ -25,8 +25,8 @@ import (
 
 	protoio "github.com/gogo/protobuf/io"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/publisher/pipeline"
 )
 
 // containerConfig is the config.C unpacking type

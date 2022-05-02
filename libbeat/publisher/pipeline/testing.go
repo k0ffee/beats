@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/publisher"
+	"github.com/k0ffee/beats/v7/libbeat/outputs"
+	"github.com/k0ffee/beats/v7/libbeat/publisher"
 )
 
 type mockPublishFn func(publisher.Batch) error

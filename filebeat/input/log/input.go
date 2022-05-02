@@ -29,16 +29,16 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/filebeat/harvester"
-	"github.com/elastic/beats/v7/filebeat/input"
-	"github.com/elastic/beats/v7/filebeat/input/file"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/k0ffee/beats/v7/filebeat/channel"
+	"github.com/k0ffee/beats/v7/filebeat/harvester"
+	"github.com/k0ffee/beats/v7/filebeat/input"
+	"github.com/k0ffee/beats/v7/filebeat/input/file"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/common/atomic"
+	"github.com/k0ffee/beats/v7/libbeat/common/cfgwarn"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/monitoring"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 
@@ -648,7 +648,7 @@ func (p *Input) handleIgnoreOlder(logger *logp.Logger, isNewState bool, newState
 	}
 
 	// Set offset to end of file to be consistent with files which were harvested before
-	// See https://github.com/elastic/beats/pull/2907
+	// See https://github.com/k0ffee/beats/pull/2907
 	newState.Offset = newState.Fileinfo.Size()
 
 	// Write state for ignore_older file as none exists yet

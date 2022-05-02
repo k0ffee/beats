@@ -25,12 +25,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec/json"
-	"github.com/elastic/beats/v7/libbeat/publisher"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/outputs"
+	"github.com/k0ffee/beats/v7/libbeat/outputs/codec"
+	"github.com/k0ffee/beats/v7/libbeat/outputs/codec/json"
+	"github.com/k0ffee/beats/v7/libbeat/publisher"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

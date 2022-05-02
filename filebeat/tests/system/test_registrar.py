@@ -276,7 +276,7 @@ class Test(BaseTest):
         self.assertEqual(self.file_permissions(os.path.join(registry_path, "log.json")), "0o640")
 
     @unittest.skipIf(platform.system() == 'Darwin' or os.name == 'nt',
-                     'Flaky test: https://github.com/elastic/beats/issues/26378')
+                     'Flaky test: https://github.com/k0ffee/beats/issues/26378')
     def test_rotating_file(self):
         """
         Checks that the registry is properly updated after a file is rotated
@@ -769,7 +769,7 @@ class Test(BaseTest):
             assert self.get_registry_entry_by_path(os.path.abspath(testfile_path2))["offset"] == 8
 
     @unittest.skipIf(os.name == 'nt' or platform.system() == "Darwin",
-                     'flaky test https://github.com/elastic/beats/issues/8102')
+                     'flaky test https://github.com/k0ffee/beats/issues/8102')
     def test_clean_inactive(self):
         """
         Checks that states are properly removed after clean_inactive
@@ -816,7 +816,7 @@ class Test(BaseTest):
         # Make sure the last file in the registry is the correct one and has the correct offset
         assert data[0]["offset"] == self.input_logs.size(file3)
 
-    @unittest.skipIf(os.name == 'nt', 'flaky test https://github.com/elastic/beats/issues/7690')
+    @unittest.skipIf(os.name == 'nt', 'flaky test https://github.com/k0ffee/beats/issues/7690')
     def test_clean_removed(self):
         """
         Checks that files which were removed, the state is removed
@@ -862,7 +862,7 @@ class Test(BaseTest):
         data = self.registry.load()
         assert data[0]["offset"] == self.input_logs.size(file2)
 
-    @unittest.skipIf(os.name == 'nt', 'flaky test https://github.com/elastic/beats/issues/10606')
+    @unittest.skipIf(os.name == 'nt', 'flaky test https://github.com/k0ffee/beats/issues/10606')
     def test_clean_removed_with_clean_inactive(self):
         """
         Checks that files which were removed, the state is removed
@@ -1221,7 +1221,7 @@ class Test(BaseTest):
         # Check that offset is set to the end of the file
         assert data[0]["offset"] == os.path.getsize(testfile_path1)
 
-    @unittest.skipIf(platform.system() == 'Darwin', 'Flaky test: https://github.com/elastic/beats/issues/22407')
+    @unittest.skipIf(platform.system() == 'Darwin', 'Flaky test: https://github.com/k0ffee/beats/issues/22407')
     def test_ignore_older_state_clean_inactive(self):
         """
         Check that state for ignore_older is not persisted when falling under clean_inactive

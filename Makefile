@@ -164,7 +164,7 @@ fmt: add-headers python-env
 .PHONY: docs
 docs:
 	@$(foreach var,$(PROJECTS),BUILD_DIR=${BUILD_DIR} $(MAKE) -C $(var) docs || exit 1;)
-	sh ./script/build_docs.sh dev-guide github.com/elastic/beats/docs/devguide ${BUILD_DIR}
+	sh ./script/build_docs.sh dev-guide github.com/k0ffee/beats/docs/devguide ${BUILD_DIR}
 
 ## notice : Generates the NOTICE file.
 .PHONY: notice

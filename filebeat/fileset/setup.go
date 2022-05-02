@@ -18,9 +18,9 @@
 package fileset
 
 import (
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	pubpipeline "github.com/elastic/beats/v7/libbeat/publisher/pipeline"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/cfgfile"
+	pubpipeline "github.com/k0ffee/beats/v7/libbeat/publisher/pipeline"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

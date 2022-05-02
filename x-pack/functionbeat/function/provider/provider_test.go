@@ -12,9 +12,9 @@ import (
 	e "github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
-	"github.com/elastic/beats/v7/x-pack/functionbeat/function/telemetry"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/publisher/pipeline"
+	"github.com/k0ffee/beats/v7/x-pack/functionbeat/function/telemetry"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

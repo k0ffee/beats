@@ -28,9 +28,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/filebeat/inputsource"
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/filebeat/inputsource"
+	"github.com/k0ffee/beats/v7/libbeat/common/atomic"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	"github.com/elastic/go-concert/ctxtool"
 )
 

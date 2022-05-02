@@ -25,8 +25,8 @@ import (
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/go-ucfg"
 
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/keystore"
+	"github.com/k0ffee/beats/v7/libbeat/common/bus"
+	"github.com/k0ffee/beats/v7/libbeat/keystore"
 )
 
 // Builder provides an interface by which configs can be built from provider metadata

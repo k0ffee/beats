@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/cmd"
+	"github.com/k0ffee/beats/v7/x-pack/osquerybeat/cmd"
 
-	"github.com/elastic/beats/v7/x-pack/libbeat/common/proc"
+	"github.com/k0ffee/beats/v7/x-pack/libbeat/common/proc"
 
-	_ "github.com/elastic/beats/v7/x-pack/osquerybeat/include"
+	_ "github.com/k0ffee/beats/v7/x-pack/osquerybeat/include"
 )
 
 func main() {

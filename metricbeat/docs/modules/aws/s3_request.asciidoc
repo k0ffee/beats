@@ -1,7 +1,7 @@
 ////
 This file is generated! See scripts/mage/docs_collector.go
 ////
-:edit_url: https://github.com/elastic/beats/edit/main/x-pack/metricbeat/module/aws/s3_request/_meta/docs.asciidoc
+:edit_url: https://github.com/k0ffee/beats/edit/main/x-pack/metricbeat/module/aws/s3_request/_meta/docs.asciidoc
 
 
 [[metricbeat-metricset-aws-s3_request]]

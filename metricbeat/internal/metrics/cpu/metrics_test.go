@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/metric/system/resolve"
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/resolve"
+	"github.com/k0ffee/beats/v7/libbeat/opt"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

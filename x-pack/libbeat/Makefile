@@ -1,6 +1,6 @@
 BEAT_NAME?=libbeat
 BEAT_FULL_NAME?=x-pack/${BEAT_NAME}
-BEAT_PATH?=github.com/elastic/beats/${BEAT_FULL_NAME}
+BEAT_PATH?=github.com/k0ffee/beats/${BEAT_FULL_NAME}
 ES_BEATS?=../..
 LICENSE=Elastic
 SYSTEM_TESTS?=true

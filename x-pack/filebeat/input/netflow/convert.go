@@ -16,10 +16,10 @@ import (
 
 	"github.com/cespare/xxhash/v2"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/flowhash"
-	"github.com/elastic/beats/v7/libbeat/conditions"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/record"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/common/flowhash"
+	"github.com/k0ffee/beats/v7/libbeat/conditions"
+	"github.com/k0ffee/beats/v7/x-pack/filebeat/input/netflow/decoder/record"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -25,10 +25,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/filebeat/input/file"
-	"github.com/elastic/beats/v7/filebeat/input/inputtest"
-	"github.com/elastic/beats/v7/libbeat/common/match"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/filebeat/input/file"
+	"github.com/k0ffee/beats/v7/filebeat/input/inputtest"
+	"github.com/k0ffee/beats/v7/libbeat/common/match"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 )
 
 var matchTests = []struct {

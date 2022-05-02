@@ -18,10 +18,10 @@
 package beat
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	"github.com/elastic/beats/v7/libbeat/instrumentation"
-	"github.com/elastic/beats/v7/libbeat/keystore"
-	"github.com/elastic/beats/v7/libbeat/management"
+	"github.com/k0ffee/beats/v7/libbeat/common/reload"
+	"github.com/k0ffee/beats/v7/libbeat/instrumentation"
+	"github.com/k0ffee/beats/v7/libbeat/keystore"
+	"github.com/k0ffee/beats/v7/libbeat/management"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

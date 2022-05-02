@@ -27,11 +27,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/elastic/beats/v7/metricbeat/module/logstash"
+	"github.com/k0ffee/beats/v7/metricbeat/module/logstash"
 
 	"github.com/stretchr/testify/require"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/k0ffee/beats/v7/metricbeat/mb/testing"
 )
 
 func TestEventMapping(t *testing.T) {

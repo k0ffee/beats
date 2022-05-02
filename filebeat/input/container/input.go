@@ -18,9 +18,9 @@
 package container
 
 import (
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/filebeat/input"
-	"github.com/elastic/beats/v7/filebeat/input/log"
+	"github.com/k0ffee/beats/v7/filebeat/channel"
+	"github.com/k0ffee/beats/v7/filebeat/input"
+	"github.com/k0ffee/beats/v7/filebeat/input/log"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 

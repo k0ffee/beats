@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
+	"github.com/k0ffee/beats/v7/heartbeat/scheduler/schedule"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

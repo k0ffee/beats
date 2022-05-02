@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport/httpcommon"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

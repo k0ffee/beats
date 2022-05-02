@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
-	"github.com/elastic/beats/v7/libbeat/monitoring/report"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/monitoring"
+	"github.com/k0ffee/beats/v7/libbeat/monitoring/report"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
@@ -35,7 +35,7 @@ import (
 // observable change during the interval.
 //
 // TODO: Replace this with a proper solution that uses the metric type from
-// where it is defined. See: https://github.com/elastic/beats/issues/5433
+// where it is defined. See: https://github.com/k0ffee/beats/issues/5433
 var gauges = map[string]bool{
 	"libbeat.output.events.active":   true,
 	"libbeat.pipeline.events.active": true,

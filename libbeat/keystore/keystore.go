@@ -20,7 +20,7 @@ package keystore
 import (
 	"errors"
 
-	"github.com/elastic/beats/v7/libbeat/common/bus"
+	"github.com/k0ffee/beats/v7/libbeat/common/bus"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/go-ucfg"
 	"github.com/elastic/go-ucfg/parse"

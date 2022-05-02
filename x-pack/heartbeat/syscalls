@@ -373,7 +373,7 @@ rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
 futex(0xc0001004c8, FUTEX_WAKE_PRIVATE, 1) = 1
 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2027851, si_uid=1000} ---
 rt_sigreturn({mask=[]})                 = 1
-openat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/elastic/beats/x-pack/heartbeat/heartbeat", O_RDONLY|O_CLOEXEC) = 6
+openat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/k0ffee/beats/x-pack/heartbeat/heartbeat", O_RDONLY|O_CLOEXEC) = 6
 epoll_ctl(3, EPOLL_CTL_ADD, 6, {EPOLLIN|EPOLLOUT|EPOLLRDHUP|EPOLLET, {u32=1594020696, u64=139777009701720}}) = -1 EPERM (Operation not permitted)
 epoll_ctl(3, EPOLL_CTL_DEL, 6, 0xc00081f99c) = -1 EPERM (Operation not permitted)
 fstat(6, {st_mode=S_IFREG|0755, st_size=82994112, ...}) = 0
@@ -479,7 +479,7 @@ umask(027)                              = 022
 uname({sysname="Linux", nodename="x1e", ...}) = 0
 getrandom("\x8e\xe2\xb5\x44\x67\x20\xc2\x61\xe5\x00\x23\xb1\x46\x24\xe0\x8f", 16, 0) = 16
 newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
-newfstatat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/elastic/beats/x-pack/heartbeat", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/k0ffee/beats/x-pack/heartbeat", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
 newfstatat(AT_FDCWD, "sample-synthetics-config/heartbeat.yml", {st_mode=S_IFREG|0644, st_size=1081, ...}, 0) = 0
 geteuid()                               = 1000
 openat(AT_FDCWD, "sample-synthetics-config/heartbeat.yml", O_RDONLY|O_CLOEXEC) = 6
@@ -491,10 +491,10 @@ read(6, "", 512)                        = 0
 close(6)                                = 0
 futex(0xc0002cc148, FUTEX_WAKE_PRIVATE, 1) = 1
 futex(0xc0002cc148, FUTEX_WAKE_PRIVATE, 1) = 1
-newfstatat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/elastic/beats/x-pack/heartbeat/data", {st_mode=S_IFDIR|0750, st_size=4096, ...}, 0) = 0
-openat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/elastic/beats/x-pack/heartbeat/data/heartbeat.keystore", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/k0ffee/beats/x-pack/heartbeat/data", {st_mode=S_IFDIR|0750, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/k0ffee/beats/x-pack/heartbeat/data/heartbeat.keystore", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
 write(2, "2020-12-16T12:43:18.263-0600\tINF"..., 349) = 349
-openat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/elastic/beats/x-pack/heartbeat/data/meta.json", O_RDONLY|O_CLOEXEC) = 6
+openat(AT_FDCWD, "/home/andrewvc/golang/src/github.com/k0ffee/beats/x-pack/heartbeat/data/meta.json", O_RDONLY|O_CLOEXEC) = 6
 epoll_ctl(3, EPOLL_CTL_ADD, 6, {EPOLLIN|EPOLLOUT|EPOLLRDHUP|EPOLLET, {u32=1594020696, u64=139777009701720}}) = -1 EPERM (Operation not permitted)
 epoll_ctl(3, EPOLL_CTL_DEL, 6, 0xc000724ddc) = -1 EPERM (Operation not permitted)
 fstat(6, {st_mode=S_IFREG|0600, st_size=48, ...}) = 0

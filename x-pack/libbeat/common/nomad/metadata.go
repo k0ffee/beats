@@ -7,7 +7,7 @@ package nomad
 import (
 	"regexp"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/k0ffee/beats/v7/libbeat/common"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/elastic-agent-libs/safemapstr"

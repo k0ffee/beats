@@ -20,9 +20,9 @@ package node_stats
 import (
 	"net/url"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	"github.com/elastic/beats/v7/metricbeat/module/logstash"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/mb/parse"
+	"github.com/k0ffee/beats/v7/metricbeat/module/logstash"
 )
 
 // init registers the MetricSet with the central registry.

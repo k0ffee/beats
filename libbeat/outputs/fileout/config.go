@@ -20,7 +20,7 @@ package fileout
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/outputs/codec"
+	"github.com/k0ffee/beats/v7/libbeat/outputs/codec"
 	"github.com/elastic/elastic-agent-libs/file"
 )
 

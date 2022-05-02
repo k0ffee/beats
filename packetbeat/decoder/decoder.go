@@ -23,12 +23,12 @@ import (
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/packetbeat/flows"
-	"github.com/elastic/beats/v7/packetbeat/protos"
-	"github.com/elastic/beats/v7/packetbeat/protos/icmp"
-	"github.com/elastic/beats/v7/packetbeat/protos/tcp"
-	"github.com/elastic/beats/v7/packetbeat/protos/udp"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/packetbeat/flows"
+	"github.com/k0ffee/beats/v7/packetbeat/protos"
+	"github.com/k0ffee/beats/v7/packetbeat/protos/icmp"
+	"github.com/k0ffee/beats/v7/packetbeat/protos/tcp"
+	"github.com/k0ffee/beats/v7/packetbeat/protos/udp"
 )
 
 var debugf = logp.MakeDebug("decoder")

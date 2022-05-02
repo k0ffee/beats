@@ -5,7 +5,7 @@
 package awscloudwatch
 
 import (
-	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/k0ffee/beats/v7/libbeat/monitoring"
 )
 
 type inputMetrics struct {

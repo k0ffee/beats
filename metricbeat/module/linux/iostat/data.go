@@ -18,7 +18,7 @@
 package iostat
 
 import (
-	"github.com/elastic/beats/v7/libbeat/metric/system/diskio"
+	"github.com/k0ffee/beats/v7/libbeat/metric/system/diskio"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -11,9 +11,9 @@ services:
     - ES_USER=heartbeat_user
     - ES_PASS=testing
     - ES_PORT=9200
-    working_dir: /go/src/github.com/elastic/beats/heartbeat
+    working_dir: /go/src/github.com/k0ffee/beats/heartbeat
     volumes:
-    - ${PWD}/..:/go/src/github.com/elastic/beats/
+    - ${PWD}/..:/go/src/github.com/k0ffee/beats/
     # We launch docker containers to test docker autodiscover:
     - /var/run/docker.sock:/var/run/docker.sock
     command: make

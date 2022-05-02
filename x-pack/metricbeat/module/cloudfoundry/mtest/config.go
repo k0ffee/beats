@@ -10,8 +10,8 @@ package mtest
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	cftest "github.com/elastic/beats/v7/x-pack/libbeat/common/cloudfoundry/test"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	cftest "github.com/k0ffee/beats/v7/x-pack/libbeat/common/cloudfoundry/test"
 )
 
 func GetConfig(t *testing.T, metricset string) map[string]interface{} {

@@ -23,15 +23,15 @@ package agent
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	"github.com/elastic/beats/v7/metricbeat/module/consul"
+	"github.com/k0ffee/beats/v7/libbeat/tests/compose"
+	"github.com/k0ffee/beats/v7/metricbeat/module/consul"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 
 	"github.com/stretchr/testify/assert"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/k0ffee/beats/v7/metricbeat/mb/testing"
 )
 
 func TestFetch(t *testing.T) {

@@ -16,8 +16,8 @@ import (
 
 	"github.com/PaesslerAG/jsonpath"
 
-	inputcursor "github.com/elastic/beats/v7/filebeat/input/v2/input-cursor"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	inputcursor "github.com/k0ffee/beats/v7/filebeat/input/v2/input-cursor"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -22,7 +22,7 @@ import (
 
 	errw "github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/cloudid"
+	"github.com/k0ffee/beats/v7/libbeat/cloudid"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

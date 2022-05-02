@@ -20,12 +20,12 @@ package actions
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/common/match"
+	"github.com/k0ffee/beats/v7/libbeat/common/match"
 	config2 "github.com/elastic/elastic-agent-libs/config"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -11,9 +11,9 @@ services:
       - ES_PORT=9200
       - ES_USER=beats
       - ES_PASS=testing
-    working_dir: /go/src/github.com/elastic/beats/x-pack/filebeat
+    working_dir: /go/src/github.com/k0ffee/beats/x-pack/filebeat
     volumes:
-      - ${PWD}/../..:/go/src/github.com/elastic/beats/
+      - ${PWD}/../..:/go/src/github.com/k0ffee/beats/
       - /var/run/docker.sock:/var/run/docker.sock
     command: make
 

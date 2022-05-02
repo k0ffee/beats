@@ -18,11 +18,11 @@
 package inputs
 
 import (
-	"github.com/elastic/beats/v7/filebeat/input/journald"
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	cursor "github.com/elastic/beats/v7/filebeat/input/v2/input-cursor"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/filebeat/input/journald"
+	v2 "github.com/k0ffee/beats/v7/filebeat/input/v2"
+	cursor "github.com/k0ffee/beats/v7/filebeat/input/v2/input-cursor"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 )
 
 // inputs that are only supported on linux

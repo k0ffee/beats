@@ -24,19 +24,19 @@ https://github.com/kubernetes/kube-state-metrics/blob/release-1.7/docs/resourceq
 
 - Setup kubernetes environment for beats testing
 
-https://github.com/elastic/beats/tree/master/metricbeat/module/kubernetes/_meta/test
+https://github.com/k0ffee/beats/tree/master/metricbeat/module/kubernetes/_meta/test
 
 - Install `kube-state-metrics`
 
 As part of the referred document above, follow these instructions
 
-https://github.com/elastic/beats/tree/master/metricbeat/module/kubernetes/_meta/test#testing-kubernetes-loads
+https://github.com/k0ffee/beats/tree/master/metricbeat/module/kubernetes/_meta/test#testing-kubernetes-loads
 
 - Create `ResourceQuota` objects
 
 The manifest are found at this location, not only creates the `ResourceQuota` objects, but also other resources that will fail because of the existence of the quota at the namespace:
 
-https://github.com/elastic/beats/tree/master/metricbeat/module/kubernetes/_meta/test/docs/02_objects/resourcequota.yaml
+https://github.com/k0ffee/beats/tree/master/metricbeat/module/kubernetes/_meta/test/docs/02_objects/resourcequota.yaml
 
 It will create
 

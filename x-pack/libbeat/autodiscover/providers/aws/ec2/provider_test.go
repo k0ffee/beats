@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/keystore"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	awsauto "github.com/elastic/beats/v7/x-pack/libbeat/autodiscover/providers/aws"
-	"github.com/elastic/beats/v7/x-pack/libbeat/autodiscover/providers/aws/test"
+	"github.com/k0ffee/beats/v7/libbeat/common/bus"
+	"github.com/k0ffee/beats/v7/libbeat/keystore"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	awsauto "github.com/k0ffee/beats/v7/x-pack/libbeat/autodiscover/providers/aws"
+	"github.com/k0ffee/beats/v7/x-pack/libbeat/autodiscover/providers/aws/test"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

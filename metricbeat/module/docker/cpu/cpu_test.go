@@ -23,7 +23,7 @@ import (
 
 	"github.com/docker/docker/api/types"
 
-	"github.com/elastic/beats/v7/metricbeat/module/docker"
+	"github.com/k0ffee/beats/v7/metricbeat/module/docker"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

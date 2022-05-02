@@ -31,18 +31,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/active/dialchain/tlsmeta"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/active/dialchain/tlsmeta"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/look"
-	"github.com/elastic/beats/v7/heartbeat/monitors"
-	"github.com/elastic/beats/v7/heartbeat/monitors/active/dialchain"
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/reason"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/k0ffee/beats/v7/heartbeat/eventext"
+	"github.com/k0ffee/beats/v7/heartbeat/look"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/active/dialchain"
+	"github.com/k0ffee/beats/v7/heartbeat/monitors/jobs"
+	"github.com/k0ffee/beats/v7/heartbeat/reason"
+	"github.com/k0ffee/beats/v7/libbeat/beat"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport/httpcommon"
+	"github.com/k0ffee/beats/v7/libbeat/common/transport/tlscommon"
 )
 
 type requestFactory func() (*http.Request, error)

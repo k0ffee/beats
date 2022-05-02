@@ -17,7 +17,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/x-pack/functionbeat/function/provider"
+	"github.com/k0ffee/beats/v7/x-pack/functionbeat/function/provider"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

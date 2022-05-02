@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	mtest "github.com/elastic/beats/v7/x-pack/metricbeat/module/mssql/testing"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/libbeat/tests/compose"
+	mbtest "github.com/k0ffee/beats/v7/metricbeat/mb/testing"
+	mtest "github.com/k0ffee/beats/v7/x-pack/metricbeat/module/mssql/testing"
 )
 
 type keyAssertion struct {

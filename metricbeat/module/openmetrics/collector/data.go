@@ -23,11 +23,11 @@ import (
 
 	"github.com/prometheus/prometheus/pkg/textparse"
 
-	p "github.com/elastic/beats/v7/metricbeat/helper/openmetrics"
+	p "github.com/k0ffee/beats/v7/metricbeat/helper/openmetrics"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/labelhash"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/k0ffee/beats/v7/metricbeat/helper/labelhash"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
 )
 
 // OpenMetricEvent stores a set of one or more metrics with the same labels

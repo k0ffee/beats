@@ -16,7 +16,7 @@ class Test(BaseTest):
         """
         Test that telemetry metrics are correctly registered and increment / decrement
         """
-        # This test is flaky https://github.com/elastic/beats/issues/8966
+        # This test is flaky https://github.com/k0ffee/beats/issues/8966
         raise unittest.SkipTest
 
         if os.name == "nt":

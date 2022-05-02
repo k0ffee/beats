@@ -8,10 +8,10 @@
 package cloudfoundry
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	cfcommon "github.com/elastic/beats/v7/x-pack/libbeat/common/cloudfoundry"
+	"github.com/k0ffee/beats/v7/libbeat/common/atomic"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/metricbeat/mb"
+	cfcommon "github.com/k0ffee/beats/v7/x-pack/libbeat/common/cloudfoundry"
 )
 
 type ModuleV1 struct {

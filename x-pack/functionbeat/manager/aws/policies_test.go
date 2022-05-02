@@ -11,8 +11,8 @@ import (
 	"github.com/awslabs/goformation/v4/cloudformation/iam"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/x-pack/functionbeat/function/provider"
-	fnaws "github.com/elastic/beats/v7/x-pack/functionbeat/provider/aws/aws"
+	"github.com/k0ffee/beats/v7/x-pack/functionbeat/function/provider"
+	fnaws "github.com/k0ffee/beats/v7/x-pack/functionbeat/provider/aws/aws"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

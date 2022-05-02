@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/elastic/beats/v7/auditbeat/datastore"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/k0ffee/beats/v7/auditbeat/datastore"
+	"github.com/k0ffee/beats/v7/libbeat/logp"
 )
 
 const (
