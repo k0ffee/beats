@@ -20,6 +20,7 @@ package readjson
 import (
 	"bytes"
 	"encoding/json"
+	"fmt"
 	"runtime"
 	"strings"
 	"time"
@@ -166,6 +167,25 @@ func (p *DockerJSONReader) parseCRILog(message *reader.Message, msg *logLine) er
 		p.stripNewLine(message)
 	}
 
+	// Docker Kubernetes log emulation starts here:
+	// 1. Escape "Content" as JSON compatible string:
+	str := strings.Trim(
+		fmt.Sprintf("%q",
+			strings.TrimRight(string(log[i]), "\n")),
+		`"`)
+
+	var jsonMessage string
+	if len(str) > 0 && string(str[0]) == "{" {
+		// Assuming JSON input:
+		jsonMessage = `{"log":"` + str + `"}`
+	} else {
+		// Wrap all plain text in "log" JSON:
+		jsonMessage = `{"log":"{\"message\":\"` + str + `\"}"}`
+	}
+	// End of log emulation for now.
+
+	message.Content = []byte(jsonMessage)
+
 	return nil
 }
 
@@ -234,6 +254,7 @@ func (p *DockerJSONReader) Next() (reader.Message, error) {
 
 		// Handle multiline messages, join partial lines
 		for p.partial && logLine.Partial {
+
 			next, err := p.reader.Next()
 
 			// keep the right bytes count even if we return an error
@@ -248,7 +269,20 @@ func (p *DockerJSONReader) Next() (reader.Message, error) {
 				p.logger.Errorf("Parse line error: %v", err)
 				continue
 			}
-			message.Content = append(message.Content, next.Content...)
+
+			// Docker Kubernetes log emulation starts here:
+			// Ensure JSON scaffolding gets removed after partial
+			// message concatenation:
+			str := string(append(message.Content, next.Content...))
+
+			short := `\"}"}{"log":"{`
+			long := short + `\"message\":\"`
+
+			msg := strings.ReplaceAll(
+				strings.ReplaceAll(str, long, ""), short, "")
+			// End of log emulation for now.
+
+			message.Content = []byte(msg)
 		}
 
 		if p.stream != "all" && p.stream != logLine.Stream {

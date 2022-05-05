@@ -102,7 +102,7 @@ func TestDockerJSON(t *testing.T) {
 			input:  [][]byte{[]byte(`2017-09-12T22:32:21.212861448Z stdout 2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache`)},
 			stream: "all",
 			expectedMessage: reader.Message{
-				Content: []byte("2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache"),
+				Content: []byte(`{"log":"{\"message\":\"2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache\"}"}`),
 				Fields:  mapstr.M{"stream": "stdout"},
 				Ts:      time.Date(2017, 9, 12, 22, 32, 21, 212861448, time.UTC),
 				Bytes:   115,
@@ -114,7 +114,7 @@ func TestDockerJSON(t *testing.T) {
 			input:  [][]byte{[]byte(`2017-09-12T22:32:21.212861448Z stdout F 2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache`)},
 			stream: "all",
 			expectedMessage: reader.Message{
-				Content: []byte("2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache"),
+				Content: []byte(`{"log":"{\"message\":\"2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache\"}"}`),
 				Fields:  mapstr.M{"stream": "stdout"},
 				Ts:      time.Date(2017, 9, 12, 22, 32, 21, 212861448, time.UTC),
 				Bytes:   117,
@@ -145,7 +145,7 @@ func TestDockerJSON(t *testing.T) {
 			},
 			stream: "stderr",
 			expectedMessage: reader.Message{
-				Content: []byte("2017-11-12 23:32:21.212 [ERROR][77] table.go 111: error"),
+				Content: []byte(`{"log":"{\"message\":\"2017-11-12 23:32:21.212 [ERROR][77] table.go 111: error\"}"}`),
 				Fields:  mapstr.M{"stream": "stderr"},
 				Ts:      time.Date(2017, 11, 12, 23, 32, 21, 212771448, time.UTC),
 				Bytes:   212,
@@ -176,7 +176,7 @@ func TestDockerJSON(t *testing.T) {
 			stream:  "stdout",
 			partial: true,
 			expectedMessage: reader.Message{
-				Content: []byte("2017-10-12 13:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache error"),
+				Content: []byte(`{"log":"{\"message\":\"2017-10-12 13:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache error\"}"}`),
 				Fields:  mapstr.M{"stream": "stdout"},
 				Ts:      time.Date(2017, 10, 12, 13, 32, 21, 232861448, time.UTC),
 				Bytes:   163,
@@ -191,7 +191,7 @@ func TestDockerJSON(t *testing.T) {
 			},
 			stream: "stdout",
 			expectedMessage: reader.Message{
-				Content: []byte("2017-10-12 13:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache error"),
+				Content: []byte(`{"log":"{\"message\":\"2017-10-12 13:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache error\"}"}`),
 				Fields:  mapstr.M{"stream": "stdout"},
 				Ts:      time.Date(2017, 10, 12, 13, 32, 21, 232861448, time.UTC),
 				Bytes:   164,
@@ -239,7 +239,7 @@ func TestDockerJSON(t *testing.T) {
 			input:  [][]byte{[]byte(`2017-09-12T22:32:21.212861448Z stdout 2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache`)},
 			stream: "all",
 			expectedMessage: reader.Message{
-				Content: []byte("2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache"),
+				Content: []byte(`{"log":"{\"message\":\"2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache\"}"}`),
 				Fields:  mapstr.M{"stream": "stdout"},
 				Ts:      time.Date(2017, 9, 12, 22, 32, 21, 212861448, time.UTC),
 				Bytes:   115,
@@ -252,7 +252,7 @@ func TestDockerJSON(t *testing.T) {
 			input:  [][]byte{[]byte(`2017-09-12T22:32:21.212861448Z stdout F 2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache`)},
 			stream: "all",
 			expectedMessage: reader.Message{
-				Content: []byte("2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache"),
+				Content: []byte(`{"log":"{\"message\":\"2017-09-12 22:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache\"}"}`),
 				Fields:  mapstr.M{"stream": "stdout"},
 				Ts:      time.Date(2017, 9, 12, 22, 32, 21, 212861448, time.UTC),
 				Bytes:   117,
@@ -269,7 +269,7 @@ func TestDockerJSON(t *testing.T) {
 			stream:  "stdout",
 			partial: true,
 			expectedMessage: reader.Message{
-				Content: []byte("2017-10-12 13:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache error"),
+				Content: []byte(`{"log":"{\"message\":\"2017-10-12 13:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache error\"}"}`),
 				Fields:  mapstr.M{"stream": "stdout"},
 				Ts:      time.Date(2017, 10, 12, 13, 32, 21, 232861448, time.UTC),
 				Bytes:   163,
@@ -285,7 +285,7 @@ func TestDockerJSON(t *testing.T) {
 			},
 			stream: "stdout",
 			expectedMessage: reader.Message{
-				Content: []byte("2017-10-12 13:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache error"),
+				Content: []byte(`{"log":"{\"message\":\"2017-10-12 13:32:21.212 [INFO][88] table.go 710: Invalidating dataplane cache error\"}"}`),
 				Fields:  mapstr.M{"stream": "stdout"},
 				Ts:      time.Date(2017, 10, 12, 13, 32, 21, 232861448, time.UTC),
 				Bytes:   164,
